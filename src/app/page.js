@@ -210,7 +210,7 @@ const App = () => {
             </div>
 
             {/* Futuristic: White/light-gray question text */}
-            <div className="lg:text-2xl font-semibold text-gray-00 font-mono mb-3  lg:mb-8 min-h-[50px] flex items-center">
+            <div className="lg:text-2xl font-semibold text-gray-100 font-mono mb-3  lg:mb-8 min-h-[50px] flex items-center">
               {currentQuestion.questionText}
             </div>
 
