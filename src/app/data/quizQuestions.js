@@ -1,5 +1,4 @@
 const QUIZ_QUESTIONS = [
-  // --- Original 50 Questions (For completeness) ---
   {
     questionText: "বাংলাদেশের প্রথম রাষ্ট্রপতি কে ছিলেন?",
     answerOptions: [
@@ -22,16 +21,16 @@ const QUIZ_QUESTIONS = [
     questionText: "জাতিসংঘের সদর দপ্তর কোথায় অবস্থিত?",
     answerOptions: [
       { answerText: "জেনেভা", isCorrect: false },
-      { answerText: "নিউ ইয়র্ক", isCorrect: true },
       { answerText: "প্যারিস", isCorrect: false },
       { answerText: "লন্ডন", isCorrect: false },
+      { answerText: "নিউ ইয়র্ক", isCorrect: true },
     ],
   },
   {
     questionText: "বাংলাদেশের জাতীয় ফুল কোনটি?",
     answerOptions: [
-      { answerText: "গোলাপ", isCorrect: false },
       { answerText: "শাপলা", isCorrect: true },
+      { answerText: "গোলাপ", isCorrect: false },
       { answerText: "বেলি", isCorrect: false },
       { answerText: "কৃষ্ণচূড়া", isCorrect: false },
     ],
@@ -49,8 +48,8 @@ const QUIZ_QUESTIONS = [
     questionText: "বিশ্বের সর্বোচ্চ পর্বতশৃঙ্গ কোনটি?",
     answerOptions: [
       { answerText: "কে-টু", isCorrect: false },
-      { answerText: "এভারেস্ট", isCorrect: true },
       { answerText: "কাঞ্চনজঙ্ঘা", isCorrect: false },
+      { answerText: "এভারেস্ট", isCorrect: true },
       { answerText: "ধৌলাগিরি", isCorrect: false },
     ],
   },
@@ -58,16 +57,16 @@ const QUIZ_QUESTIONS = [
     questionText: "বাংলাদেশের মুদ্রার নাম কী?",
     answerOptions: [
       { answerText: "রুপি", isCorrect: false },
-      { answerText: "টাকা", isCorrect: true },
       { answerText: "টাক্কা", isCorrect: false },
+      { answerText: "টাকা", isCorrect: true },
       { answerText: "পয়সা", isCorrect: false },
     ],
   },
   {
     questionText: "বাংলাদেশ কত সালে জাতিসংঘের সদস্যপদ লাভ করে?",
     answerOptions: [
-      { answerText: "১৯৭২", isCorrect: false },
       { answerText: "১৯৭৪", isCorrect: true },
+      { answerText: "১৯৭২", isCorrect: false },
       { answerText: "১৯৭৬", isCorrect: false },
       { answerText: "১৯৮০", isCorrect: false },
     ],
@@ -94,8 +93,8 @@ const QUIZ_QUESTIONS = [
     questionText: "সূর্যকে কেন্দ্র করে পৃথিবীর আবর্তন করতে কত দিন লাগে?",
     answerOptions: [
       { answerText: "২৪ ঘণ্টা", isCorrect: false },
-      { answerText: "৩৬৫ দিন", isCorrect: true },
       { answerText: "৩০ দিন", isCorrect: false },
+      { answerText: "৩৬৫ দিন", isCorrect: true },
       { answerText: "১২ মাস", isCorrect: false },
     ],
   },
@@ -121,9 +120,9 @@ const QUIZ_QUESTIONS = [
     questionText: "বাংলাদেশের সবচেয়ে বড় জেলা কোনটি?",
     answerOptions: [
       { answerText: "রংপুর", isCorrect: false },
-      { answerText: "রাঙ্গামাটি", isCorrect: true },
       { answerText: "খুলনা", isCorrect: false },
       { answerText: "চট্টগ্রাম", isCorrect: false },
+      { answerText: "রাঙ্গামাটি", isCorrect: true },
     ],
   },
   {
@@ -140,8 +139,8 @@ const QUIZ_QUESTIONS = [
       "বঙ্গবন্ধু শেখ মুজিবুর রহমানকে কোন সালে ‘জাতির জনক’ হিসেবে ঘোষণা করা হয়?",
     answerOptions: [
       { answerText: "১৯৭১", isCorrect: false },
-      { answerText: "১৯৭২", isCorrect: true },
       { answerText: "১৯৮০", isCorrect: false },
+      { answerText: "১৯৭২", isCorrect: true },
       { answerText: "১৯৯৬", isCorrect: false },
     ],
   },
@@ -158,9 +157,9 @@ const QUIZ_QUESTIONS = [
     questionText: "বিশ্বের সবচেয়ে বড় মহাসাগর কোনটি?",
     answerOptions: [
       { answerText: "আটলান্টিক", isCorrect: false },
-      { answerText: "প্রশান্ত মহাসাগর", isCorrect: true },
       { answerText: "ইন্ডিয়ান ওশান", isCorrect: false },
       { answerText: "আর্কটিক", isCorrect: false },
+      { answerText: "প্রশান্ত মহাসাগর", isCorrect: true },
     ],
   },
   {
@@ -176,8 +175,8 @@ const QUIZ_QUESTIONS = [
     questionText: "বাংলাদেশের জাতীয় সংগীত কোন কাব্যগ্রন্থের অংশ?",
     answerOptions: [
       { answerText: "গীতাঞ্জলি", isCorrect: false },
-      { answerText: "গীতবিতান", isCorrect: true },
       { answerText: "সোনার তরী", isCorrect: false },
+      { answerText: "গীতবিতান", isCorrect: true },
       { answerText: "চৈতালি", isCorrect: false },
     ],
   },
@@ -220,8 +219,8 @@ const QUIZ_QUESTIONS = [
   {
     questionText: "জলের রাসায়নিক সংকেত কী?",
     answerOptions: [
-      { answerText: "O2", isCorrect: false },
       { answerText: "H2O", isCorrect: true },
+      { answerText: "O2", isCorrect: false },
       { answerText: "CO2", isCorrect: false },
       { answerText: "H2", isCorrect: false },
     ],
@@ -248,9 +247,9 @@ const QUIZ_QUESTIONS = [
     questionText: "দাবা খেলার উদ্ভব কোন দেশে?",
     answerOptions: [
       { answerText: "চীন", isCorrect: false },
-      { answerText: "ভারত", isCorrect: true },
       { answerText: "তুরস্ক", isCorrect: false },
       { answerText: "মিশর", isCorrect: false },
+      { answerText: "ভারত", isCorrect: true },
     ],
   },
   {
@@ -293,8 +292,8 @@ const QUIZ_QUESTIONS = [
     questionText: "‘আমার ভাইয়ের রক্তে রাঙানো’ গানটি কার লেখা?",
     answerOptions: [
       { answerText: "জাহাঙ্গীর কবির", isCorrect: false },
-      { answerText: "গোবিন্দ হালদার", isCorrect: true },
       { answerText: "আলতাফ মাহমুদ", isCorrect: false },
+      { answerText: "গোবিন্দ হালদার", isCorrect: true },
       { answerText: "নজরুল ইসলাম", isCorrect: false },
     ],
   },
@@ -319,8 +318,8 @@ const QUIZ_QUESTIONS = [
   {
     questionText: "বাংলাদেশের সবচেয়ে বড় নদী কোনটি?",
     answerOptions: [
-      { answerText: "যমুনা", isCorrect: false },
       { answerText: "পদ্মা", isCorrect: true },
+      { answerText: "যমুনা", isCorrect: false },
       { answerText: "মেঘনা", isCorrect: false },
       { answerText: "কর্ণফুলি", isCorrect: false },
     ],
@@ -338,8 +337,8 @@ const QUIZ_QUESTIONS = [
     questionText: "বিশ্বের সবচেয়ে দ্রুতগামী পাখি কোনটি?",
     answerOptions: [
       { answerText: "ঈগল", isCorrect: false },
-      { answerText: "পেরেগ্রিন ফ্যালকন", isCorrect: true },
       { answerText: "কবুতর", isCorrect: false },
+      { answerText: "পেরেগ্রিন ফ্যালকন", isCorrect: true },
       { answerText: "সীগাল", isCorrect: false },
     ],
   },
@@ -356,16 +355,16 @@ const QUIZ_QUESTIONS = [
     questionText: "শরীরের তাপমাত্রা নিয়ন্ত্রণ করে কোন অঙ্গ?",
     answerOptions: [
       { answerText: "হার্ট", isCorrect: false },
-      { answerText: "হাইপোথ্যালামাস", isCorrect: true },
       { answerText: "লিভার", isCorrect: false },
+      { answerText: "হাইপোথ্যালামাস", isCorrect: true },
       { answerText: "কিডনি", isCorrect: false },
     ],
   },
   {
     questionText: "বাংলাদেশের জাতীয় কবি কে?",
     answerOptions: [
-      { answerText: "রবীন্দ্রনাথ ঠাকুর", isCorrect: false },
       { answerText: "কাজী নজরুল ইসলাম", isCorrect: true },
+      { answerText: "রবীন্দ্রনাথ ঠাকুর", isCorrect: false },
       { answerText: "জীবনানন্দ দাশ", isCorrect: false },
       { answerText: "শামসুর রাহমান", isCorrect: false },
     ],
@@ -392,8 +391,8 @@ const QUIZ_QUESTIONS = [
     questionText: "রানার্স নামে পরিচিত কোন খেলাটি?",
     answerOptions: [
       { answerText: "ফুটবল", isCorrect: false },
-      { answerText: "অ্যাথলেটিক্স", isCorrect: true },
       { answerText: "ব্যাডমিন্টন", isCorrect: false },
+      { answerText: "অ্যাথলেটিক্স", isCorrect: true },
       { answerText: "হকি", isCorrect: false },
     ],
   },
@@ -428,8 +427,8 @@ const QUIZ_QUESTIONS = [
     questionText:
       "গর্ভাধানের সময় ভ্রূণের লিঙ্গ নির্ধারিত হয় কোন উপাদানের দ্বারা?",
     answerOptions: [
-      { answerText: "মায়ের ডিম্বাণু", isCorrect: false },
       { answerText: "বাবার শুক্রাণু", isCorrect: true },
+      { answerText: "মায়ের ডিম্বাণু", isCorrect: false },
       { answerText: "মায়ের রক্ত", isCorrect: false },
       { answerText: "ফলিকল হরমোন", isCorrect: false },
     ],
@@ -438,8 +437,8 @@ const QUIZ_QUESTIONS = [
     questionText: "বাংলাদেশের সংবিধান গৃহীত হয় কোন সালে?",
     answerOptions: [
       { answerText: "১৯৭১", isCorrect: false },
-      { answerText: "১৯৭২", isCorrect: true },
       { answerText: "১৯৭৩", isCorrect: false },
+      { answerText: "১৯৭২", isCorrect: true },
       { answerText: "১৯৭৫", isCorrect: false },
     ],
   },
@@ -447,16 +446,16 @@ const QUIZ_QUESTIONS = [
     questionText: "বিশ্বের সবচেয়ে বড় প্রাণী কোনটি?",
     answerOptions: [
       { answerText: "আফ্রিকান হাতি", isCorrect: false },
-      { answerText: "নীল তিমি", isCorrect: true },
       { answerText: "জিরাফ", isCorrect: false },
       { answerText: "মেরুভালুক", isCorrect: false },
+      { answerText: "নীল তিমি", isCorrect: true },
     ],
   },
   {
     questionText: "বাংলাদেশের জাতীয় ফল কোনটি?",
     answerOptions: [
-      { answerText: "আম", isCorrect: false },
       { answerText: "কাঁঠাল", isCorrect: true },
+      { answerText: "আম", isCorrect: false },
       { answerText: "লিচু", isCorrect: false },
       { answerText: "কলা", isCorrect: false },
     ],
@@ -474,8 +473,8 @@ const QUIZ_QUESTIONS = [
     questionText: "মহাকাশে প্রথম মানুষ কে?",
     answerOptions: [
       { answerText: "নিল আর্মস্ট্রং", isCorrect: false },
-      { answerText: "ইউরি গ্যাগারিন", isCorrect: true },
       { answerText: "বাজ অলড্রিন", isCorrect: false },
+      { answerText: "ইউরি গ্যাগারিন", isCorrect: true },
       { answerText: "ভ্যালেন্তিনা তেরেশকোভা", isCorrect: false },
     ],
   },
@@ -500,8 +499,8 @@ const QUIZ_QUESTIONS = [
   {
     questionText: "বিশ্বের দীর্ঘতম কৃমি কোনটি?",
     answerOptions: [
-      { answerText: "রাউন্ডওয়ার্ম", isCorrect: false },
       { answerText: "রিবন ওয়ার্ম", isCorrect: true },
+      { answerText: "রাউন্ডওয়ার্ম", isCorrect: false },
       { answerText: "টেপ ওয়ার্ম", isCorrect: false },
       { answerText: "থ্রেড ওয়ার্ম", isCorrect: false },
     ],
@@ -510,8 +509,8 @@ const QUIZ_QUESTIONS = [
     questionText: "বায়ুমণ্ডলের কোন স্তরে ওজোন স্তর অবস্থিত?",
     answerOptions: [
       { answerText: "ট্রপোস্ফিয়ার", isCorrect: false },
-      { answerText: "স্ট্র্যাটোস্ফিয়ার", isCorrect: true },
       { answerText: "মেসোস্ফিয়ার", isCorrect: false },
+      { answerText: "স্ট্র্যাটোস্ফিয়ার", isCorrect: true },
       { answerText: "থার্মোস্ফিয়ার", isCorrect: false },
     ],
   },
@@ -528,17 +527,17 @@ const QUIZ_QUESTIONS = [
     questionText: "মানবদেহে কোন রক্তকোষ রোগ প্রতিরোধ করে?",
     answerOptions: [
       { answerText: "রেড ব্লাড সেল", isCorrect: false },
-      { answerText: "হোয়াইট ব্লাড সেল", isCorrect: true },
       { answerText: "প্লেটলেট", isCorrect: false },
       { answerText: "থ্রম্বিন", isCorrect: false },
+      { answerText: "হোয়াইট ব্লাড সেল", isCorrect: true },
     ],
   },
   {
     questionText: "নিকেল ধাতুর রং সাধারণত কেমন?",
     answerOptions: [
       { answerText: "কালো", isCorrect: false },
-      { answerText: "সিলভার-সাদা", isCorrect: true },
       { answerText: "হলুদ", isCorrect: false },
+      { answerText: "সিলভার-সাদা", isCorrect: true },
       { answerText: "ধূসর", isCorrect: false },
     ],
   },
@@ -564,8 +563,8 @@ const QUIZ_QUESTIONS = [
     questionText:
       "নোবেল পুরস্কার কোন দেশের বিজ্ঞানী আলফ্রেড নোবেল প্রতিষ্ঠা করেন?",
     answerOptions: [
-      { answerText: "সুইডেন", isCorrect: true },
       { answerText: "নরওয়ে", isCorrect: false },
+      { answerText: "সুইডেন", isCorrect: true },
       { answerText: "ডেনমার্ক", isCorrect: false },
       { answerText: "ফিনল্যান্ড", isCorrect: false },
     ],
@@ -582,8 +581,8 @@ const QUIZ_QUESTIONS = [
   {
     questionText: "মানবদেহের সবচেয়ে বড় অঙ্গ কোনটি?",
     answerOptions: [
-      { answerText: "ত্বক", isCorrect: true },
       { answerText: "লিভার", isCorrect: false },
+      { answerText: "ত্বক", isCorrect: true },
       { answerText: "হৃদপিণ্ড", isCorrect: false },
       { answerText: "ফুসফুস", isCorrect: false },
     ],
@@ -600,9 +599,9 @@ const QUIZ_QUESTIONS = [
   {
     questionText: "মাউন্ট এভারেস্টের উচ্চতা কত?",
     answerOptions: [
-      { answerText: "৮৮৪৮ মিটার", isCorrect: true },
       { answerText: "৭৯৫২ মিটার", isCorrect: false },
       { answerText: "৬৬২০ মিটার", isCorrect: false },
+      { answerText: "৮৮৪৮ মিটার", isCorrect: true },
       { answerText: "৯০৩৪ মিটার", isCorrect: false },
     ],
   },
@@ -618,10 +617,10 @@ const QUIZ_QUESTIONS = [
   {
     questionText: "সূর্যের সবচেয়ে কাছের গ্রহ কোনটি?",
     answerOptions: [
-      { answerText: "বুধ", isCorrect: true },
       { answerText: "শুক্র", isCorrect: false },
       { answerText: "পৃথিবী", isCorrect: false },
       { answerText: "মঙ্গল", isCorrect: false },
+      { answerText: "বুধ", isCorrect: true },
     ],
   },
   {
@@ -636,26 +635,26 @@ const QUIZ_QUESTIONS = [
   {
     questionText: "বঙ্গবন্ধু হত্যাকাণ্ড কোন সালে সংঘটিত হয়?",
     answerOptions: [
-      { answerText: "১৯৭৫", isCorrect: true },
       { answerText: "১৯৭১", isCorrect: false },
       { answerText: "১৯৮১", isCorrect: false },
       { answerText: "১৯৭৩", isCorrect: false },
+      { answerText: "১৯৭৫", isCorrect: true },
     ],
   },
   {
     questionText: "ফুটবল ম্যাচে একটি দলে কতজন খেলোয়াড় থাকে?",
     answerOptions: [
-      { answerText: "১১ জন", isCorrect: true },
       { answerText: "১০ জন", isCorrect: false },
       { answerText: "১২ জন", isCorrect: false },
+      { answerText: "১১ জন", isCorrect: true },
       { answerText: "৯ জন", isCorrect: false },
     ],
   },
   {
     questionText: "চাঁদের আলো আসলে কোথা থেকে আসে?",
     answerOptions: [
-      { answerText: "সূর্য থেকে প্রতিফলিত আলো", isCorrect: true },
       { answerText: "চাঁদের নিজস্ব আলো", isCorrect: false },
+      { answerText: "সূর্য থেকে প্রতিফলিত আলো", isCorrect: true },
       { answerText: "তারার আলো", isCorrect: false },
       { answerText: "মেঘের আলো", isCorrect: false },
     ],
@@ -663,9 +662,9 @@ const QUIZ_QUESTIONS = [
   {
     questionText: "বিশ্বর দীর্ঘতম নদী কোনটি?",
     answerOptions: [
-      { answerText: "নীল নদ", isCorrect: true },
       { answerText: "আমাজন নদী", isCorrect: false },
       { answerText: "মিসিসিপি নদী", isCorrect: false },
+      { answerText: "নীল নদ", isCorrect: true },
       { answerText: "ইয়াংসিকিয়াং", isCorrect: false },
     ],
   },
@@ -681,8 +680,8 @@ const QUIZ_QUESTIONS = [
   {
     questionText: "নোকিয়া কোম্পানি কোন দেশের?",
     answerOptions: [
-      { answerText: "ফিনল্যান্ড", isCorrect: true },
       { answerText: "সুইডেন", isCorrect: false },
+      { answerText: "ফিনল্যান্ড", isCorrect: true },
       { answerText: "জার্মানি", isCorrect: false },
       { answerText: "ফ্রান্স", isCorrect: false },
     ],
@@ -690,28 +689,28 @@ const QUIZ_QUESTIONS = [
   {
     questionText: "বিশ্বের প্রথম বিশ্ববিদ্যালয় কোথায় প্রতিষ্ঠিত হয়?",
     answerOptions: [
-      { answerText: "তক্ষশীলা", isCorrect: true },
       { answerText: "ন্যালন্দা", isCorrect: false },
       { answerText: "কেমব্রিজ", isCorrect: false },
       { answerText: "অক্সফোর্ড", isCorrect: false },
+      { answerText: "তক্ষশীলা", isCorrect: true },
     ],
   },
   {
     questionText: "ওজোন স্তর কোন গ্যাস দিয়ে গঠিত?",
     answerOptions: [
-      { answerText: "O₃", isCorrect: true },
       { answerText: "O₂", isCorrect: false },
       { answerText: "CO₂", isCorrect: false },
       { answerText: "N₂", isCorrect: false },
+      { answerText: "O₃", isCorrect: true },
     ],
   },
   {
     questionText: "ফেসবুকের প্রতিষ্ঠাতা কে?",
     answerOptions: [
-      { answerText: "মার্ক জাকারবার্গ", isCorrect: true },
       { answerText: "ইলন মাস্ক", isCorrect: false },
       { answerText: "জেফ বেজোস", isCorrect: false },
       { answerText: "বিল গেটস", isCorrect: false },
+      { answerText: "মার্ক জাকারবার্গ", isCorrect: true },
     ],
   },
   {
@@ -726,8 +725,8 @@ const QUIZ_QUESTIONS = [
   {
     questionText: "বিশ্বের দ্রুততম প্রাণী কোনটি?",
     answerOptions: [
-      { answerText: "চিতাবাঘ", isCorrect: true },
       { answerText: "সিংহ", isCorrect: false },
+      { answerText: "চিতাবাঘ", isCorrect: true },
       { answerText: "হরিণ", isCorrect: false },
       { answerText: "বাঘ", isCorrect: false },
     ],
@@ -753,17 +752,12 @@ const QUIZ_QUESTIONS = [
   {
     questionText: "বাংলাদেশ কোন সালে জাতিসংঘের সদস্যপদ লাভ করে?",
     answerOptions: [
-      { answerText: "১৯৭৪", isCorrect: true },
       { answerText: "১৯৭২", isCorrect: false },
       { answerText: "১৯৭৮", isCorrect: false },
       { answerText: "১৯৮০", isCorrect: false },
+      { answerText: "১৯৭৪", isCorrect: true },
     ],
   },
-  // --- New Questions Start Here (Total 450 new questions) ---
-
-  // ----------------------------------------------------
-  // ## New Section 1: History, Literature, and Arts
-  // ----------------------------------------------------
   {
     questionText: "ঐতিহাসিক ৭ই মার্চের ভাষণ কোথায় দেওয়া হয়েছিল?",
     answerOptions: [
@@ -786,17 +780,17 @@ const QUIZ_QUESTIONS = [
     questionText: "আবু সায়ীদ আইয়ুব রচিত বিখ্যাত গ্রন্থ কোনটি?",
     answerOptions: [
       { answerText: "পথের পাঁচালী", isCorrect: false },
-      { answerText: "আধুনিকতা ও রবীন্দ্রনাথ", isCorrect: true },
       { answerText: "হাজার বছর ধরে", isCorrect: false },
       { answerText: "পদ্মা নদীর মাঝি", isCorrect: false },
+      { answerText: "আধুনিকতা ও রবীন্দ্রনাথ", isCorrect: true },
     ],
   },
   {
     questionText: "বাংলাদেশের জাতীয় পতাকা কে ডিজাইন করেন?",
     answerOptions: [
       { answerText: "রবীন্দ্রনাথ ঠাকুর", isCorrect: false },
-      { answerText: "কামরুল হাসান", isCorrect: true },
       { answerText: "জয়নুল আবেদীন", isCorrect: false },
+      { answerText: "কামরুল হাসান", isCorrect: true },
       { answerText: "এস. এম. সুলতান", isCorrect: false },
     ],
   },
@@ -839,8 +833,8 @@ const QUIZ_QUESTIONS = [
   {
     questionText: "প্রাচীন বাংলায় 'পুণ্ড্রনগর' নামে পরিচিত ছিল কোন স্থান?",
     answerOptions: [
-      { answerText: "বিক্রমপুর", isCorrect: false },
       { answerText: "মহাস্থানগড়", isCorrect: true },
+      { answerText: "বিক্রমপুর", isCorrect: false },
       { answerText: "সোনারগাঁও", isCorrect: false },
       { answerText: "নলডাঙ্গা", isCorrect: false },
     ],
@@ -945,10 +939,6 @@ const QUIZ_QUESTIONS = [
       { answerText: "হুসেইন মুহম্মদ এরশাদ", isCorrect: false },
     ],
   },
-
-  // ----------------------------------------------------
-  // ## New Section 2: Science and Technology
-  // ----------------------------------------------------
   {
     questionText: "আলোর গতি প্রতি সেকেন্ডে প্রায় কত?",
     answerOptions: [
@@ -1129,10 +1119,6 @@ const QUIZ_QUESTIONS = [
       { answerText: "আর্গন", isCorrect: false },
     ],
   },
-
-  // ----------------------------------------------------
-  // ## New Section 3: Geography and Environment
-  // ----------------------------------------------------
   {
     questionText: "বিশ্বের ছাদ কাকে বলা হয়?",
     answerOptions: [
@@ -1148,7 +1134,7 @@ const QUIZ_QUESTIONS = [
       { answerText: "বরগুনা", isCorrect: false },
       { answerText: "কক্সবাজার", isCorrect: false },
       { answerText: "চট্টগ্রাম", isCorrect: false },
-      { answerText: "কক্সবাজার (টেকনাফ)", isCorrect: true }, // Cox's Bazar is the district, but Teknaf is the Southernmost point
+      { answerText: "কক্সবাজার (টেকনাফ)", isCorrect: true },
     ],
   },
   {
@@ -1175,7 +1161,7 @@ const QUIZ_QUESTIONS = [
       { answerText: "দিনাজপুর", isCorrect: false },
       { answerText: "ময়মনসিংহ", isCorrect: false },
       { answerText: "বরিশাল", isCorrect: false },
-      { answerText: "ময়মনসিংহ (উপকরণ অনুসারে)", isCorrect: true }, // Historical/General answer leans towards Mymensingh/Bogra area in general.
+      { answerText: "ময়মনসিংহ (উপকরণ অনুসারে)", isCorrect: true },
     ],
   },
   {
@@ -1314,16 +1300,12 @@ const QUIZ_QUESTIONS = [
       { answerText: "ক্ষয়জাত পর্বত", isCorrect: false },
     ],
   },
-
-  // ----------------------------------------------------
-  // ## New Section 4: General Knowledge and Sports
-  // ----------------------------------------------------
   {
     questionText: "আধুনিক অলিম্পিক গেমসের জনক কে?",
     answerOptions: [
       { answerText: "পিটার মেন্ডেলসন", isCorrect: false },
       { answerText: "পিয়ের দ্য কুবার্তিন", isCorrect: true },
-      { answerText: "ব্যারন ডি কুবার্তিন", isCorrect: true }, // Same person, common variation
+      { answerText: "ব্যারন ডি কুবার্তিন", isCorrect: true },
       { answerText: "থিওডোসিয়াস", isCorrect: false },
     ],
   },
@@ -1499,12 +1481,6 @@ const QUIZ_QUESTIONS = [
       { answerText: "ইতালি", isCorrect: false },
     ],
   },
-
-  // ----------------------------------------------------
-  // ## New Section 5: Diverse Facts (410 more questions to go...)
-  // ----------------------------------------------------
-
-  // Continuing with 410 more questions...
   {
     questionText: "বাংলাদেশের ‘গ্রীষ্মকাল’ কোন মাস থেকে শুরু হয়?",
     answerOptions: [
